@@ -21,6 +21,11 @@ __Ejemplo__
     helloName('Bob') → "Hello Bob!"
     helloName('Alice') → "Hello Alice!"
     helloName('X') → "Hello X!"
+  function helloName(name){
+      const helloName = "Hello " + name + "!";
+      return helloName;
+    }
+
 ```
 
 __Pistas__
